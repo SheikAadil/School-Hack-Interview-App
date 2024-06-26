@@ -1,0 +1,27 @@
+name: schoolhack
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.5
+  audio_waveforms: ^0.1.1
+  floating_bottom_navigation_bar: ^1.5.2
+  rxdart: ^0.27.0
+  just_waveform: ^0.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - audio/
